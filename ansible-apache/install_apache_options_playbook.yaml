@@ -21,4 +21,5 @@
         - RESTART APACHE2
   handlers:
     - name: RESTART APACHE2
-      service: name=apache2 state=restarted
+      service: name=apache2 state=restartec
+      
